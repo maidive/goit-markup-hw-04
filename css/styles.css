@@ -136,9 +136,12 @@ img {
 }
 
 .hero {
-  background: #2e2f42;
   padding: 188px 0px;
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7) ,rgba(46, 47, 66, 0.7)), url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 .hero-title {
   font-weight: 700;
@@ -147,7 +150,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  background: #2e2f42;
   max-width: 496px;
   display: flex;
   margin-left: auto;
@@ -211,8 +213,10 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-image {
+.team-icons {
+  fill: #4d5ae5;
 }
+
 
 .team {
   background-color: #f4f4fd;
