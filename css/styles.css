@@ -97,6 +97,10 @@ img {
   display: block;
 }
 
+.header-menu-iteam::after{
+  color: #4d5ae5;
+}
+
 .header-container {
   display: flex;
 }
@@ -200,6 +204,22 @@ img {
   padding: 120px 0px;
 }
 
+
+.info-iteam-container{
+  display: block;
+  border-radius: 4px;
+  border: 1px solid ;
+  padding: 24px 100px;
+  width: 264px;
+height: 112px;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4F4FD;
+  margin-bottom: 8px;
+
+}
+
 .info-iteam-text {
   font-weight: 400;
   font-size: 16px;
@@ -208,15 +228,25 @@ img {
   color: #434455;
 }
 
+
+
 .team-iteam {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  
 }
 
 .team-icons {
-  fill: #4d5ae5;
+  fill: #ffffff;
+  
 }
 
+.team-icons-container{
+  display: flex;
+  gap: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
 
 .team {
   background-color: #f4f4fd;
@@ -260,6 +290,22 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  padding-bottom: 8px;
+}
+
+.team-bio{
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-bio:hover{
+  background-color: #31d0aa;
+  transition:250ms;
 }
 
 .portfolio-title-title {
@@ -338,4 +384,18 @@ img {
 
 .logo-italica-footer {
   color: #f4f4fd;
+}
+
+.footer-subtetle {
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 150%;
+ letter-spacing: 0.02em;
+ max-width: 96px;
+}
+
+.footer-subtetle {
+  justify-content: center;
+  align-items: center;
+  
 }
