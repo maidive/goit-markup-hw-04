@@ -256,12 +256,9 @@ img {
 }
 
 .team-icons {
-  fill: #ffffff;
-  
+  fill: #f4f4f4;
 }
 
-.team-icons-container{
-}
 
 .team {
   background-color: #f4f4fd;
@@ -390,6 +387,7 @@ img {
 
 .portfolio-iteam:hover{
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
 }
 
 .portfolio-conteiner{
