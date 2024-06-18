@@ -331,7 +331,6 @@ img {
 .team-bio:hover,
 .team-bio:focus {
   background-color: #404bbf;
-  transition:250ms;
 }
 
 .portfolio-title-title {
@@ -394,7 +393,7 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-iteam .portfolio-text-card:hover{
+.portfolio-iteam:hover .portfolio-text-card{
   transform: translateY(0%);
 }
 
